@@ -19,7 +19,7 @@ jobs:
 
       # generate SVG snake
       - name: Generate Pixel Snake
-        uses: TheWorldFinal/snk/svg-only@v3
+        uses: TheWorldFinal/snk/svg-only@main
         with:
           github_user_name: "TheWorldFinal"
           outputs: |
