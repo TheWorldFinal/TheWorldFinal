@@ -13,7 +13,7 @@ jobs:
 
       # Step 2: Generate the snake
       - name: Generate Pixel Snake
-        uses: Platane/snk@latest
+        uses: Platane/snk@v3.5.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           color: "#00FF00"      # neon green snake
