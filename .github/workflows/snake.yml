@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # checkout code
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@main
 
       # generate SVG snake
       - name: Generate Pixel Snake
