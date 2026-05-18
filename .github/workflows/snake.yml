@@ -1,0 +1,21 @@
+name: Pixel Snake
+on:
+  schedule:
+    - cron: '0 0 * * *' # runs daily at midnight UTC
+  workflow_dispatch: # allows manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Get your repo content
+      - uses: actions/checkout@v3
+
+      # Step 2: Generate the snake
+      - name: Generate Pixel Snake
+        uses: Platane/snk@latest
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          color: "#00FF00"      # neon green snake
+          background: "#000000" # black retro background
+          pixel: true            # enable pixel-art look
