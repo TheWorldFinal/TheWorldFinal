@@ -1,6 +1,7 @@
 ## Hi there 👋
 
-![Pixel Snake](./snake.svg)
+# My GitHub Profile 🐍
+![Pixel Snake](https://raw.githubusercontent.com/TheWorldFinal/TheWorldFinal/output/github-contribution-grid-snake.svg)
 
 <!--
 **TheWorldFinal/TheWorldFinal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
